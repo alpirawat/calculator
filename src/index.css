@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button-row input {
+  background: #cbe8ee;
+  border: 1px solid #42cae7;
+  padding: 2px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 44px;
+  height: 36px;
+  text-align: center;
+  align-content: center;
+  margin-left: 2px;
+}
+
+.screen-row input{
+  padding: 5px;
+  border: 1px solid #42cae7;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+.button-row input:hover, screen-row {
+  background: #2bc3e3;
+  border: 1px solid #2bc3e3;;
+}
+
+body {
+  margin: 0;
+}
+.flex-container {
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;     /* center items horizontally, in this case */
+  height: 300px;
+}
+.row {
+  width: 300px;
+  margin: 5px;
+  text-align: center;
+}
